@@ -17,10 +17,16 @@ Two example web networks are evaluated, and both methods converge to the same st
 
 ---
 
-## What’s Included
-- **Research paper (PDF):** full explanation of PageRank, linear algebra background, and results  
-- **Python code:** hyperlink matrix construction, iterative computation, eigenvector solution, and plots  
-- **Figures:** convergence behavior of PageRank values
+## Included Files
+
+| File | Description |
+|------|--------------|
+| **`pagerank_analysis.ipynb`** | Jupyter/Colab notebook with hyperlink matrix construction, iterative computation, eigenvector solution, and plots |
+| **`PageRank_Paper.pdf`** | Full paper explaning PageRank, linear algebra background, and results |
+| **`convergence-6.png`** | PageRank Convergence Behavior for Six-Page Web Network |
+| **`convergence-8.png`** | PageRank Convergence Behavior for Eight-Page Web Network |
+| **`requirements.txt`** | List of dependencies (NumPy, Matplotlib, SciPy) |
+
 
 ---
 ## Key Ideas
@@ -36,5 +42,4 @@ Two example web networks are evaluated, and both methods converge to the same st
 
 ## How to Run
 ```bash
-pip install numpy matplotlib
-python pagerank.py
+pip install -r requirements.txt
