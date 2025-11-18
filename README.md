@@ -12,7 +12,7 @@ Course: *CS 323E – Elements of Scientific Computing*
 
 ## Overview
 
-This project implements and analyzes the Google PageRank algorithm using both the iterative update x_(k+1) = Hx_k and the dominant eigenvector of the hyperlink matrix H. Two example web networks are evaluated, and both methods converge to the same steady-state PageRank vector.
+This project implements and analyzes the Google PageRank algorithm using both the iterative update $x_{k+1} = Hx_k$ and the dominant eigenvector of the hyperlink matrix $H$. Two example web networks are evaluated, and both methods converge to the same steady-state PageRank vector.
 
 ---
 
